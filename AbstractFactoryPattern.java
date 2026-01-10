@@ -56,7 +56,7 @@ Key:
 */
 
 
-public class AbstractFactory {
+public class AbstractFactoryPattern {
     
 }
 
