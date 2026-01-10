@@ -1,3 +1,21 @@
+/*
+                +--------------------------+
+                |        Singleton         |
+                +--------------------------+
+                | - static instance        |
+                +--------------------------+
+                | - Singleton()            |
+                +--------------------------+
+                | + getInstance() : Singleton |
+                +--------------------------+
+
+Notes:
+- Constructor is private
+- Only one instance exists
+- Global access point via getInstance()
+*/
+
+
 public class Singleton {
 
     public static volatile Singleton instance;
